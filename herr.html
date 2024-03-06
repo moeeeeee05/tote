@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Can u be my forever??</title>
+<style>
+  body {
+    background-color: #444;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  #message {
+    display: none;
+  }
+</style>
+</head>
+<body>
+  <h1 style="color: #ffcccc ;">I Love you my Queen.</h1>
+  <p style="height: 150px;"><b>I just wanted to take a moment to remind you of something that's always true you are the most beautiful girl in the world
+    , both inside and out. <br>Your smile lights up my world, your laughter is music to my ears, and your presence fills my heart with indescribable joy.<br>
+    Every day, I find new reasons to fall deeper in love with you. Your kindness, your strength,
+    and your unwavering support mean everything to me.<br> I feel like the luckiest person alive to have you by my side.<br>
+    I want you to know that my love for you knows no bounds. It stretches beyond time and space,
+     reaching into every corner of my being. You are my everything, my love, my life, and I cherish every moment we share together.<br>
+    I love you more than words can express, more than the stars in the sky, more than anything in this world. Thank you for being you,
+     for being mine and for filling my life with endless love and happiness.
+    Forever and always.</b></p>
+  <img src="cc.gif" alt="Cute GIF" width="200">
+  <div id="question">
+    <p>Do you love me?</p>
+    <button onclick="showMessage('yes')">Yes</button>
+<a href="css.html"><button onclick="showMessage('no')">No</button></a>
+
+  </div>
+  <div id="message"></div>
+
+  <script>
+    function showMessage(answer) {
+      var messageDiv = document.getElementById('message');
+      if (answer === 'yes') {
+        messageDiv.innerHTML = "<p>I love you way more, baby!</p>";
+      }
+      messageDiv.style.display = 'block';
+      document.getElementById('question').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
